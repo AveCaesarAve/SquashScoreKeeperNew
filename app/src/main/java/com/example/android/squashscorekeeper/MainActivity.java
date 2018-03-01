@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
         scorePlayer1 = scorePlayer1 + 1;
         displayForPlayer1(scorePlayer1);
 
-        if (scorePlayer1==9) {
+        if (scorePlayer1 == 9) {
             scorePlayer1 = 0;
             scorePlayer2 = 0;
             setPlayer1 = setPlayer1 + 1;
             displayForPlayer1(scorePlayer1);
             displayForPlayer2(scorePlayer2);
             displaySetForPlayer1(setPlayer1);
-            }
+        }
     }
 
     /**
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         scorePlayer2 = scorePlayer2 + 1;
         displayForPlayer2(scorePlayer2);
 
-        if (scorePlayer2==9) {
+        if (scorePlayer2 == 9) {
             scorePlayer1 = 0;
             scorePlayer2 = 0;
             setPlayer2 = setPlayer2 + 1;
@@ -138,5 +138,4 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = findViewById(R.id.player_2_serve);
         scoreView.setText(String.valueOf(score));
     }
-
 }
