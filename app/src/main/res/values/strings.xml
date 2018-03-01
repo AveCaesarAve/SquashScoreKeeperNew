@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SquashScoreKeeperNew</string>
+    <string name="player1">PLAYER 1</string>
+    <string name="player2">PLAYER 2</string>
+    <string name="score">SCORE</string>
+    <string name="point">POINT</string>
+    <string name="serve">SERVICE</string>
+    <string name="sets">SETS WON</string>
+    <string name="set">SET</string>
+    <string name="reset">RESET SCORE</string>
+</resources>
